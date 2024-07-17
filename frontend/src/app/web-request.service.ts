@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class WebRequestService {
   readonly ROOT_URL;
   constructor(private http: HttpClient) {
-    this.ROOT_URL = "http://localhost:3000";
+    this.ROOT_URL = "https://task-management-system-backend-vf9x.onrender.com";
    }
 
   get(uri: string){
