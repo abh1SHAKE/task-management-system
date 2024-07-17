@@ -1,0 +1,37 @@
+$light-gray: #262626;
+$gray: #1f1f1f;
+$medium-gray: #17171746;
+$dark-gray: #141414;
+
+$blue: #65a7e1;
+$emerald: #017556;
+
+$low-priority: #00ff59;
+$medium-priority: #ffea00;
+$high-priority: #ff2a00;
+
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+html{
+    background: linear-gradient(to right top, $gray, $dark-gray);
+}
+
+html,body{
+    height: 100%;
+}
+
+.button{
+    transition: transform 0.2s ease;
+    &:active{
+        transform: scale(0.95);
+    }
+}
+
+.task-title{
+    color: #65a7e1;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
